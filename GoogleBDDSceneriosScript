@@ -1,0 +1,11 @@
+Feature: When user go to the Google Home Search WebPage, and search for an Search Term,
+		User expect to see some reference to that Search Term in the result summary as like a auto suggest for the user.
+
+Scenario:
+	Given that I gone to the Google page
+	When I added "Test Automation" to the Google search Text box
+	And click the Google Search Button
+	Then "Test Automation" should be mentioned in the results along with extra terms
+	
+
+	
