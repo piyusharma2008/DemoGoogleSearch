@@ -1,5 +1,5 @@
 Feature: When user go to the Google Home Search WebPage, and search for an Search Term,
-		User expect to see some reference to that Search Term in the result summary as like a auto suggest for the user.
+		User expect to see some reference to that Search Term in the result summary as like a auto suggest for the user.piyush
 
 Scenario:
 	Given that I gone to the Google page
